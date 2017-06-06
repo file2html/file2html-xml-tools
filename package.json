@@ -1,0 +1,31 @@
+{
+  "name": "file2html-xml-tools",
+  "version": "1.0.0",
+  "description": "JS module for working with XML in file2html",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --no-cache --config=./node_modules/file2html-dev-tools/jest/config.json"
+  },
+  "dependencies": {
+    "@types/htmlparser2": "^3.7.29",
+    "htmlparser2": "^3.9.2"
+  },
+  "devDependencies": {
+    "file2html-dev-tools": "git@github.com:file2html/file2html-dev-tools.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/file2html/file2html-xml-tools.git"
+  },
+  "keywords": [
+    "file2html",
+    "xml",
+    "sax"
+  ],
+  "author": "webschik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/file2html/file2html-xml-tools/issues"
+  },
+  "homepage": "https://github.com/file2html/file2html-xml-tools#readme"
+}
