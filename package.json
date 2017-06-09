@@ -4,7 +4,9 @@
   "description": "JS module for working with XML in file2html",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest --no-cache --config=./node_modules/file2html-dev-tools/jest/config.json"
+    "test": "./node_modules/.bin/jest --no-cache --config=./node_modules/file2html-dev-tools/jest/config.json",
+    "lint": "./node_modules/.bin/tslint \"src/**/*.ts\"",
+    "build": "npm run lint && rm -rf lib && ./node_modules/.bin/tsc"
   },
   "dependencies": {
     "@types/htmlparser2": "^3.7.29",
